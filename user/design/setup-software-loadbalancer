@@ -1,3 +1,10 @@
+---
+layout: user-doc
+title: Set Up Multiple Ports/Protocols in Load Balancer
+id: set-up-multiple-ports-protocols-load-balancer
+---
+
+
 Octavia is an open source scalable software load balancer.
 This octavia service can be enabled in OpenStack Clouds. To use this service via OneOps opesntack cloud should have octavia and barbican service running.
 
@@ -6,7 +13,7 @@ This guide explains newly added cloud services, attributes in lb-component in pa
 
 First step is adding octavia and barbican services in cloud configuration. 
  
-lb component in OneOps pack design for Software load balancer:
+![lb component in OneOps pack design for Software load balancer:](/assets/docs/local/images/multiple-ports-protocols.png)
 
 Octavia SLB offers both Non-secure and Secure Options while Loadbalancing for applications.
 The configuration options available earlier in lb-component which is applicable to physical netscalar still holds good for SLB too.
